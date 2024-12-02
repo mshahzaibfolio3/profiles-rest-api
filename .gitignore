@@ -1,0 +1,86 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment directories
+venv/
+env/
+ENV/
+
+# Distribution/build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Python development logs
+*.log
+
+# IDE/editor-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+
+# Operating system-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment variables
+.env
+.env.*
+
+# Test coverage files
+htmlcov/
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+
+# Mypy type checking
+.mypy_cache/
+
+# Linting tools
+.pyre/
+.mypy_cache/
+flake8.log
+pylint.log
+
+# Docker-related files
+docker-compose.override.yml
+docker-compose.*.yml
+*.stackdump
+docker-compose.override.yml
+Dockerfile.*
+
+# Docker data
+**/docker-data/
+**/.docker/
+**/*.sock
+.dockerignore
+
+# Logs
+*.log
+logs/
+
+# Other sensitive or generated files
+/secrets/
+config.yaml
+*.bak
+
+# Cached files
+*.cache
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# SQLite database files
+*.sqlite3
+*.db
+
+# Static files
+/static/
+media/
